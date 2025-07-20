@@ -1,16 +1,27 @@
-## Hi there 👋
+# 👋 Hi there, I am Muhammad
 
-<!--
-**Deal-With-Muhammad/Deal-With-Muhammad** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+> **⚠️ Note:** My previous GitHub account (`@DealWithMuhammad`) was deactivated — but I’m still here, building, learning, and shipping even better things.
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🧠 About Me
+
+I'm a passionate **Web & App Developer** who loves turning ideas into scalable digital products. My work focuses on:
+
+- ⚛️ **React Native** — cross-platform mobile apps with smooth UI/UX
+- 🌐 **Next.js** — lightning-fast full-stack web applications
+- 🛠️ Backend tools — Supabase, Firebase, Node.js, and more
+- 🎨 Clean code and minimalist UI
+
+---
+
+### 🚀 Let's Connect
+
+- 📫 Email: `muhammad.ahmad90@hotmail.com` 
+- 🌍 Portfolio: https://portfolio-deal-with-muhammad.vercel.app/en 
+- 🧑‍💻 LinkedIn: https://www.linkedin.com/in/muhammad-ahmad-7009b8248/
+
+---
+
+Thanks for visiting my profile. Stick around, lots more coming soon!
+

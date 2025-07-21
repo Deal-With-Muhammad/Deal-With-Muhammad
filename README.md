@@ -18,7 +18,7 @@ I'm a passionate **Web & App Developer** who loves turning ideas into scalable d
 ### 🚀 Let's Connect
 
 - 📫 Email: `muhammad.ahmad90@hotmail.com` 
-- 🌍 Portfolio: https://portfolio-deal-with-muhammad.vercel.app/en 
+- 🌍 Portfolio: https://dealwithmuhammad.vercel.app
 - 🧑‍💻 LinkedIn: https://www.linkedin.com/in/muhammad-ahmad-7009b8248/
 
 ---

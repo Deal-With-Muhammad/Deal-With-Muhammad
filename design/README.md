@@ -4,7 +4,6 @@ The profile is one canvas (`canvas.html`) rendered in Chromium, then cut into pi
 
 ```sh
 npm i sharp                                   # only needed to regenerate
-node wallpaper.mjs wallpaper.png 1800 3900 11
 ./shot.sh "$PWD/plate.png" 1848 "hide=no-digits%20no-graph"
 node slice.mjs plate.png ../assets            # writes ../assets and ../README.md
 ```

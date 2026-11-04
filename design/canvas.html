@@ -20,9 +20,10 @@
 
   h1 { font-weight: 700; letter-spacing: -.038em; line-height: 1; }
 
-  .btn { position: absolute; height: 50px; border-radius: 25px; display: flex; align-items: center; justify-content: center; gap: 9px; font-size: 17px; font-weight: 600; letter-spacing: -.012em; color: #fff; box-shadow: 0 10px 28px rgba(6,10,50,.32); }
+  .btn { position: absolute; height: 50px; border-radius: 25px; display: flex; align-items: center; justify-content: center; gap: 9px; font-size: 17px; font-weight: 600; letter-spacing: -.012em; color: #fff; }
   .btn svg { width: 19px; height: 19px; display: block; }
-  .btn.solid { background: linear-gradient(#ffffff, #eef1fb); color: #101a4e; box-shadow: 0 10px 30px rgba(6,10,50,.4), inset 0 1px 0 #fff; }
+  .btn.plain { background: rgba(255,255,255,.1); box-shadow: inset 0 0 0 1px rgba(255,255,255,.16); }
+  .btn.solid { background: #fff; color: #17191e; }
 
   .phone { position: absolute; border-radius: calc(var(--w) * .155); width: var(--w); height: calc(var(--w) * 2.14); padding: calc(var(--w) * .022);
     background: linear-gradient(135deg, #8d93a0, #34373f 18%, #1d1f25 50%, #33363d 82%, #7f8592);
@@ -48,7 +49,7 @@
   .win img { display: block; width: 100%; }
   .app { display: flex; flex-direction: column; align-items: center; padding-top: 12px; }
   .app img { width: 62px; height: 62px; border-radius: 14.5px; box-shadow: 0 8px 18px rgba(4,8,44,.42); }
-  .app span { margin-top: 7px; font-size: 13.5px; font-weight: 500; letter-spacing: -.004em; text-shadow: 0 1px 8px rgba(8,12,70,.6); white-space: nowrap; }
+  .app span { margin-top: 7px; font-size: 13.5px; font-weight: 500; letter-spacing: -.004em; white-space: nowrap; }
   body.no-digits .digits { visibility: hidden; }
   body.no-graph .graphdots { visibility: hidden; }
 </style>
@@ -58,36 +59,29 @@
 <div id="canvas" style="--h:1848px">
 
   <!-- HERO TILE: 0..700 -->
-  <div class="tile" id="hero" style="left:0;top:0;width:900px;height:700px;background:#0a1648 url(wallpaper.png) 0 0 / 900px auto no-repeat">
-    <div class="abs" style="inset:0;background:radial-gradient(90% 62% at 50% 8%, rgba(6,12,60,.62), rgba(6,12,60,.28) 60%, rgba(6,12,60,0) 100%)"></div>
-    <div class="abs" style="left:0;right:0;top:46px;display:flex;justify-content:center">
-      <div class="glass" data-glass="depth:10;band:13;blur:7;sat:1.5" style="height:36px;border-radius:18px;padding:0 16px 0 14px;display:flex;align-items:center;gap:9px;font-size:15px;font-weight:500;letter-spacing:-.008em;color:rgba(255,255,255,.96)">
-        <span class="herodot" style="width:9px;height:9px;border-radius:50%;background:#34e368;box-shadow:0 0 10px #34e368"></span>
-        Software Engineer at FleetZero
-      </div>
-    </div>
-    <h1 class="abs" style="left:0;right:0;top:100px;text-align:center;font-size:88px;text-shadow:0 2px 34px rgba(8,12,70,.42)">Muhammad Ahmad</h1>
-    <p class="abs" style="left:0;right:0;top:204px;text-align:center;font-size:24px;font-weight:450;letter-spacing:-.015em;color:rgba(255,255,255,.88)">I build web and mobile apps people use every day.</p>
+  <div class="tile" id="hero" style="left:0;top:0;width:900px;height:700px;background:#17191e">
+    <h1 class="abs" style="left:0;right:0;top:70px;text-align:center;font-size:88px">Muhammad Ahmad</h1>
+    <p class="abs" style="left:0;right:0;top:174px;text-align:center;font-size:24px;font-weight:450;letter-spacing:-.015em;color:rgba(255,255,255,.72)">I build web and mobile apps people use every day.</p>
 
-    <a class="btn solid" style="left:213px;top:264px;width:150px">
+    <a class="btn solid" style="left:213px;top:234px;width:150px">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9.2"/><path d="M2.8 12h18.4M12 2.8c2.6 2.6 3.9 5.6 3.9 9.2s-1.3 6.6-3.9 9.2c-2.6-2.6-3.9-5.6-3.9-9.2s1.3-6.6 3.9-9.2Z"/></svg>Website</a>
-    <a class="btn glass" data-glass="depth:12;band:16;blur:8;sat:1.6" style="left:375px;top:264px;width:150px">
+    <a class="btn plain" style="left:375px;top:234px;width:150px">
       <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 1 1 0-4.128 2.062 2.062 0 0 1 0 4.128zM7.119 20.452H3.555V9h3.564v11.452z"/></svg>LinkedIn</a>
-    <a class="btn glass" data-glass="depth:12;band:16;blur:8;sat:1.6" style="left:537px;top:264px;width:150px">
+    <a class="btn plain" style="left:537px;top:234px;width:150px">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5.2"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.3" cy="6.7" r="1.15" fill="currentColor" stroke="none"/></svg>Instagram</a>
 
-    <div class="phone" style="--w:172px;left:20px;top:414px;--bar:#101218;--ink:#fff"><div class="screen"><div class="bar"><b>9:41</b><i></i></div><img src="assets/dwm-qr-mobile.webp"><div class="island"></div></div></div>
-    <div class="phone" style="--w:172px;right:20px;top:414px;--bar:#12121a;--ink:#fff"><div class="screen"><div class="bar"><b>9:41</b><i></i></div><img src="assets/dwm-bg-remover-mobile.webp"><div class="island"></div></div></div>
-    <div class="phone" style="--w:192px;left:152px;top:376px;--bar:#1e1033;--ink:#fff"><div class="screen"><div class="bar"><b>9:41</b><i></i></div><img src="assets/imposter-who-mobile.webp"><div class="island"></div></div></div>
-    <div class="phone" style="--w:192px;right:152px;top:376px;--bar:#f5f0e6;--ink:#1c2a28"><div class="screen"><div class="bar"><b>9:41</b><i></i></div><img src="assets/dwm-invite-mobile.webp"><div class="island"></div></div></div>
-    <div class="phone" style="--w:216px;left:342px;top:342px;--bar:#f5f0e6;--ink:#1c2a28"><div class="screen"><div class="bar"><b>9:41</b><i></i></div><img src="assets/dwm-invite-designs.webp"><div class="island"></div></div></div>
+    <div class="phone" style="--w:172px;left:20px;top:394px;--bar:#101218;--ink:#fff"><div class="screen"><div class="bar"><b>9:41</b><i></i></div><img src="assets/dwm-qr-mobile.webp"><div class="island"></div></div></div>
+    <div class="phone" style="--w:172px;right:20px;top:394px;--bar:#12121a;--ink:#fff"><div class="screen"><div class="bar"><b>9:41</b><i></i></div><img src="assets/dwm-bg-remover-mobile.webp"><div class="island"></div></div></div>
+    <div class="phone" style="--w:192px;left:152px;top:356px;--bar:#1e1033;--ink:#fff"><div class="screen"><div class="bar"><b>9:41</b><i></i></div><img src="assets/imposter-who-mobile.webp"><div class="island"></div></div></div>
+    <div class="phone" style="--w:192px;right:152px;top:356px;--bar:#f5f0e6;--ink:#1c2a28"><div class="screen"><div class="bar"><b>9:41</b><i></i></div><img src="assets/dwm-invite-mobile.webp"><div class="island"></div></div></div>
+    <div class="phone" style="--w:216px;left:342px;top:322px;--bar:#f5f0e6;--ink:#1c2a28"><div class="screen"><div class="bar"><b>9:41</b><i></i></div><img src="assets/dwm-invite-designs.webp"><div class="island"></div></div></div>
   </div>
 
   <!-- ACHIEVEMENT TILE: 712..1092 -->
   <div class="tile" id="invite" style="left:0;top:712px;width:900px;height:380px;background:#071f20">
     <img class="bg" src="assets/invite-poster.webp" style="object-position:50% 62%">
     <div class="abs" style="inset:0;background:linear-gradient(90deg, rgba(3,20,22,.34), rgba(3,20,22,0) 55%)"></div>
-    <div class="abs glass" data-glass="depth:22;band:30;blur:18;sat:1.45" style="left:24px;top:34px;width:548px;height:312px;border-radius:30px;box-shadow:0 22px 50px rgba(0,12,14,.42)">
+    <div class="abs glass" data-glass="depth:22;band:30;blur:18;sat:1.45" style="left:24px;top:34px;width:480px;height:312px;border-radius:30px;box-shadow:0 22px 50px rgba(0,12,14,.42)">
       <div class="abs" style="left:30px;top:28px;display:flex;align-items:center;gap:13px">
         <img src="assets/icons/dwm-invite.png" style="width:58px;height:58px;border-radius:14px;box-shadow:0 6px 16px rgba(0,0,0,.28)">
         <div>
@@ -100,17 +94,15 @@
       </div>
       <p class="abs" style="left:30px;top:108px;font-size:21px;line-height:1.3;font-weight:450;letter-spacing:-.014em;color:rgba(255,255,255,.92)">Online invitations that open like a film.</p>
       <div class="abs" style="left:30px;right:30px;top:162px;height:1px;background:rgba(255,255,255,.2)"></div>
-      <div class="abs" style="left:30px;top:188px;width:488px;display:grid;grid-template-columns:178px 178px 132px">
+      <div class="abs" style="left:30px;top:188px;width:420px;display:grid;grid-template-columns:200px 200px">
         <div><div class="digits num" id="n1">4,225</div><div class="lab">Visitors</div></div>
         <div><div class="digits num" id="n2">19,565</div><div class="lab">Page views</div></div>
-        <div><div class="digits num" id="n3">829</div><div class="lab">Visitors today</div></div>
       </div>
     </div>
   </div>
 
   <!-- HALF TILES: 1104..1404 -->
-  <div class="tile" id="fleet" style="left:0;top:1104px;width:444px;height:300px;background:#0a2a1d">
-    <div class="abs" style="inset:0;background:radial-gradient(80% 90% at 100% 100%, rgba(52,227,104,.5), rgba(52,227,104,0) 72%), radial-gradient(60% 70% at 0% 0%, rgba(26,150,120,.42), rgba(26,150,120,0) 70%)"></div>
+  <div class="tile" id="fleet" style="left:0;top:1104px;width:444px;height:300px;background:#17191e">
     <div class="abs" style="left:26px;top:24px;right:26px">
       <div style="font-size:16px;font-weight:500;color:rgba(255,255,255,.76)">Where I work</div>
       <div style="font-size:32px;font-weight:700;letter-spacing:-.028em;line-height:1.14;margin-top:2px">FleetZero</div>
@@ -119,8 +111,7 @@
     <div class="abs win" style="left:26px;top:146px;width:352px;height:230px"><div class="wb"><i></i><i></i><i></i></div><img src="assets/garagezero.webp"></div>
     <div class="phone" style="--w:124px;left:300px;top:106px;--bar:#0b0c0e;--ink:#fff"><div class="screen"><div class="bar"><b>9:41</b><i></i></div><img src="assets/fleetzero-mobile.webp"><div class="island"></div></div></div>
   </div>
-  <div class="tile" id="imposter" style="left:456px;top:1104px;width:444px;height:300px;background:#1f0f38">
-    <div class="abs" style="inset:0;background:radial-gradient(70% 90% at 100% 0%, rgba(242,183,5,.26), rgba(242,183,5,0) 70%), radial-gradient(70% 90% at 0% 100%, rgba(28,191,155,.22), rgba(28,191,155,0) 70%)"></div>
+  <div class="tile" id="imposter" style="left:456px;top:1104px;width:444px;height:300px;background:#17191e">
     <div class="abs" style="left:26px;top:24px;width:160px">
       <img src="assets/icons/imposter-who.png" style="width:52px;height:52px;border-radius:12px;display:block;margin-bottom:12px;box-shadow:0 6px 16px rgba(0,0,0,.28)">
       <div style="font-size:30px;font-weight:700;letter-spacing:-.026em;line-height:1.1">Imposter<br>Who</div>
@@ -131,21 +122,17 @@
   </div>
 
   <!-- DOCK TILE: 1416..1606 -->
-  <div class="tile" id="dock" style="left:0;top:1416px;width:900px;height:190px;background:#0a1648 url(wallpaper.png) 0 -1040px / 900px auto no-repeat">
-    <div class="abs" style="inset:0;background:rgba(6,12,60,.14)"></div>
-    <div class="abs" style="left:0;right:0;top:17px;text-align:center;font-size:21px;font-weight:600;letter-spacing:-.016em;text-shadow:0 1px 14px rgba(8,12,70,.5)">More things I've built, free for anyone</div>
-    <div class="abs glass" data-glass="depth:20;band:26;blur:14;sat:1.6" style="left:10px;right:10px;top:60px;height:116px;border-radius:32px;box-shadow:0 16px 40px rgba(4,8,44,.4)"></div>
+  <div class="tile" id="dock" style="left:0;top:1416px;width:900px;height:190px;background:#17191e">
+    <div class="abs" style="left:0;right:0;top:17px;text-align:center;font-size:21px;font-weight:600;letter-spacing:-.016em">More things I've built, free for anyone</div>
     <div class="abs" id="apps" style="left:0;top:60px;width:900px;height:116px;display:grid;grid-template-columns:repeat(8,112.5px)"></div>
   </div>
 
   <!-- CONTRIBUTIONS TILE: 1618..1848 -->
-  <div class="tile" id="graph" style="left:0;top:1618px;width:900px;height:230px;background:#0a1648 url(wallpaper.png) 0 -640px / 900px auto no-repeat">
-    <div class="abs" style="inset:0;background:rgba(6,12,60,.12)"></div>
-    <div class="abs glass" data-glass="depth:20;band:28;blur:16;sat:1.35" style="left:18px;top:18px;width:864px;height:194px;border-radius:28px;box-shadow:0 16px 40px rgba(4,8,44,.4)">
-      <div class="abs" style="inset:0;border-radius:inherit;background:rgba(5,12,40,.6)"></div>
+  <div class="tile" id="graph" style="left:0;top:1618px;width:900px;height:230px;background:#17191e">
+    <div class="abs" style="left:18px;top:18px;width:864px;height:194px">
       <div class="abs" style="left:26px;top:17px;font-size:21px;font-weight:600;letter-spacing:-.016em">My contributions</div>
-      <div class="abs" style="right:26px;top:21px;font-size:15.5px;font-weight:500;color:rgba(255,255,255,.76)">in the last year</div>
-      <div class="digits abs num2" id="n4" style="right:136px;top:15px;font-size:24px;font-weight:650;letter-spacing:-.012em;font-feature-settings:'tnum'">1,192</div>
+      <div class="abs" style="right:26px;top:21px;font-size:15.5px;font-weight:500;color:rgba(255,255,255,.72)">in the last year</div>
+      <div class="digits abs num2" id="n4" style="right:136px;top:15px;font-size:24px;font-weight:650;letter-spacing:-.012em;font-feature-settings:'tnum'">1,186</div>
       <img class="graphdots abs" src="snake-preview.svg" style="left:16px;top:42px;width:832px">
     </div>
   </div>
@@ -194,7 +181,7 @@
     el.style.webkitBackdropFilter = el.style.backdropFilter;
   });
   const box=(sel)=>{const r=document.querySelector(sel).getBoundingClientRect();return {x:r.x,y:r.y,w:r.width,h:r.height}};
-  document.documentElement.dataset.metrics=JSON.stringify({herodot:box(".herodot"),livedot:box(".livedot"),n1:box("#n1"),n2:box("#n2"),n3:box("#n3"),n4:box("#n4"),graphImg:box(".graphdots"),invite:box("#invite"),graph:box("#graph")});
+  document.documentElement.dataset.metrics=JSON.stringify({livedot:box(".livedot"),n1:box("#n1"),n2:box("#n2"),n4:box("#n4"),graphImg:box(".graphdots"),invite:box("#invite"),graph:box("#graph")});
   document.body.className = new URLSearchParams(location.search).get("hide") || "";
 </script>
 </body>

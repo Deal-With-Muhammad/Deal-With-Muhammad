@@ -1,40 +1,40 @@
-# 👋 Hi there, I am Muhammad
+# Hi, I'm Muhammad 👋
 
-> **⚠️ Note:** My previous GitHub account (`@DealWithMuhammad`) was deactivated — but I’m still here, building, learning, and shipping even better things.
+Software Engineer building web and mobile apps.
 
----
+[![Website](https://img.shields.io/badge/Website-dealwithmuhammad.com-2ea44f?style=for-the-badge&logo=googlechrome&logoColor=white)](https://dealwithmuhammad.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Muhammad%20Ahmad-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/muhammad-ahmad-7009b8248/)
+[![Instagram](https://img.shields.io/badge/Instagram-dealwithmuhammad-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/dealwithmuhammad/)
 
-### 🧠 About Me
+### About me
 
-I'm a passionate **Web & App Developer** who loves turning ideas into scalable digital products. My work focuses on:
+I build software for the web and mobile, from the first idea through to launch. Right now I work as a Software Engineer at [FleetZero](https://fleetzero.ai).
 
-- ⚛️ **React Native** — cross-platform mobile apps with smooth UI/UX
-- 🌐 **Next.js** — lightning-fast full-stack web applications
-- 🛠️ Backend tools — Supabase, Firebase, Node.js, and more
-- 🎨 Clean code and minimalist UI
+### Biggest achievement
 
----
+**[DWM Invite](https://invite.dealwithmuhammad.com)** is an online invitation maker I built and run. Here's how it's doing, live:
 
-### 🛠️ Things I've Built
+[![Visitors](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fwww.dealwithmuhammad.com%2Fapi%2Fviews%3Fsite%3Dinvite&query=%24.visitors&label=Visitors&color=2ea44f&style=for-the-badge&cacheSeconds=300)](https://www.dealwithmuhammad.com/stats)
+[![Page views](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fwww.dealwithmuhammad.com%2Fapi%2Fviews%3Fsite%3Dinvite&query=%24.pageviews&label=Page%20views&color=2ea44f&style=for-the-badge&cacheSeconds=300)](https://www.dealwithmuhammad.com/stats)
+[![Visitors today](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fwww.dealwithmuhammad.com%2Fapi%2Fviews%3Fsite%3Dinvite&query=%24.today.visitors&label=Visitors%20today&color=2ea44f&style=for-the-badge&cacheSeconds=300)](https://www.dealwithmuhammad.com/stats)
 
-Free and live, no sign-up needed to try them:
+<details>
+<summary><b>More things I've built</b></summary>
+<br>
 
-- 💌 [DWM Invite](https://invite.dealwithmuhammad.com) — online invitation maker
-- 🕵️ [Imposter Who](https://imposterwho.dealwithmuhammad.com) — party word game
-- 🖼️ [DWM BG Remover](https://bgremove.dealwithmuhammad.com) — remove image backgrounds in your browser
-- 🔳 [DWM QR](https://qr.dealwithmuhammad.com) — QR code generator
-- ✉️ [DWM Email Checker](https://emailcheck.dealwithmuhammad.com) — check if an email address looks real
-- 🌐 [DWM IP](https://ip.dealwithmuhammad.com) — look up your IP address
+- [Imposter Who](https://imposterwho.dealwithmuhammad.com): party word game
+- [DWM BG Remover](https://bgremove.dealwithmuhammad.com): remove image backgrounds in your browser
+- [DWM QR](https://qr.dealwithmuhammad.com): QR code generator
+- [DWM Email Checker](https://emailcheck.dealwithmuhammad.com): check if an email address looks real
+- [DWM IP](https://ip.dealwithmuhammad.com): look up your IP address
 
----
+</details>
 
-### 🚀 Let's Connect
+### Contributions
 
-- 📫 Email: `muhammad.ahmad90@hotmail.com` 
-- 🌍 Portfolio: https://dealwithmuhammad.com
-- 🧑‍💻 LinkedIn: https://www.linkedin.com/in/muhammad-ahmad-7009b8248/
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Deal-With-Muhammad/Deal-With-Muhammad/output/contributions-dark.svg">
+  <img alt="Animated graph of my GitHub contributions" src="https://raw.githubusercontent.com/Deal-With-Muhammad/Deal-With-Muhammad/output/contributions-light.svg">
+</picture>
 
----
-
-Thanks for visiting my profile. Stick around, lots more coming soon!
-
+<sub>My previous GitHub account, @DealWithMuhammad, was deactivated before July 2025, so my older work isn't here.</sub>
